@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 
-@Component({
+@Component({//ESTO ES UN DECORADOR, ESTE LE DICE A ANGULAR QUE PUEDE SER INYECTADO EN UN ARCHIVO HTML
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'hola-mundo';
+  nombre = 'Sam';
+  apellido = "Abn";
 }
